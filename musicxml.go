@@ -37,11 +37,6 @@ func (m *MusicXML) ParseXMLBuffer(r io.Reader) (*MusicXML, error) {
 	return m.setMXML(musicxml.ParseXMLBuffer(r))
 }
 
-// ParseXMLBytes parses musicxml data from []byte into a MusicXML struct.
-func (m *MusicXML) ParseXMLBytes(data []byte) (*MusicXML, error) {
-	return m.setMXML(musicxml.ParseXMLBytes(data))
-}
-
 // ParseXMLFile parses musicxml data from a file into a MusicXML struct.
 func (m *MusicXML) ParseXMLFile(filePath string) (*MusicXML, error) {
 	return m.setMXML(musicxml.ParseXMLFile(filePath))
