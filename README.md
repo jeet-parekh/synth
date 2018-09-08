@@ -6,7 +6,7 @@ Music package for Go.
 
 ## MusicXML
 
-- You can use `synth` to parse MusicXML files. Internally, `synth` uses `github.com/musica/musicxml`.
+- You can use `synth/musicxml` to parse MusicXML files. Internally, `synth/musicxml` uses `github.com/musica/musicxml`.
 
 - The `MusicXML` struct *would provide* helper functions to handle the music aspects of the MusicXML.
 
