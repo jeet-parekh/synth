@@ -1,7 +1,7 @@
 package synth
 
 import (
-	"github.com/musica/synth/musicxml"
+	"github.com/musica/musicxml"
 )
 
 // MusicXML is a wrapper around the MusicXML struct from the musicxml sub-package.
